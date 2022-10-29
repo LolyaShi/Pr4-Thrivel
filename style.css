@@ -198,31 +198,31 @@
 /*first-page*/
 
 .first-page-content{
-    width: 1440px;
-    height: 607px;
+   margin-top: 0;
+}
+
+.page1-text{
+    width: 915px;
+    height: 604px;
     background-color: #62D0DF;
-    display: flex;
-    justify-content: space-between;
-
-
-    
 }
 
 .first-page-text{
-    width: 914px;
     margin-left: 178px;
-   padding-top: 156px;
+   
     color:#fff;
     text-align: left;
 }
 
-.page-name{
+.page1-name{
     font-size: 36px;
     font-weight: bold;
     color:#fff;
+
+    margin-top: 0;
 }
 
-.page-text{
+.page1-description{
     width: 555px;
     font-size: 20px;
     font-weight: 400;
@@ -239,19 +239,14 @@
 /*first-page-photo*/
 
 .first-page-photo{
-    display: block;
     width: 550px;
-    height: 604;
+    height: 604px;
     
-
-    background: url(img/2.jfif) center;
-    background-size: cover;
+    background: url(img/2.jfif) left;
+    background-size: auto 604px ;
 }
 
-.first-photo{
-    height: 100%;
-    width: auto;
-}
+
 
 /*about us*/
 
@@ -366,5 +361,235 @@
     height: 9px;
     border-radius: 50%;
     background-color: #F9B640;
+
+    
    
+}
+
+/*health block*/
+
+.six-blocks{
+    width: 480px;
+    height: 480px;
+    
+
+}
+
+.health-text{
+    display: inline-block;
+   
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+   
+    margin-left: 104px;
+    padding-top: 96px;
+}
+
+.health-text::before{
+    content: "";
+    display: block;
+    width: 340px;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-left: -34px;
+    
+}
+
+.health-block1{
+    width: 480px;
+    height: 480px;
+    background-color: #22356F;
+}
+
+.health-block2{
+    width: 480px;
+    height: 480px;
+    background-color: #0052C1;
+}
+
+.health-block3{
+    width: 480px;
+    height: 480px;
+    background:url(img/3.jfif) center;
+    background-size: auto 480px;
+}
+
+.health-block4{
+    width: 480px;
+    height: 480px;
+    background-color: #62D0DF;
+}
+
+.health-block5{
+    width: 480px;
+    height: 480px;
+    background-color: #DEE1FF;
+}
+
+.health-block6{
+    width: 480px;
+    height: 480px;
+    background-color: #8F00FF;
+}
+
+.health-block{
+    margin-top: 120px;
+}
+
+/*daily plans*/
+
+.daily-plans{
+    margin-top: 22px;
+}
+
+.day-block{
+    width: 480px;
+    height: 240px;
+    text-align: center;
+}
+
+.day-main{
+    font-size: 28px;
+    font-weight: 400;
+    color:#22356F;
+    text-align: left;
+    margin-left: 105px;;
+}
+
+.day-text{
+    width: 298px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(34, 53, 111, 0.5);
+    text-align: left;
+    line-height: 25.31px;
+
+    margin-top: 28px;
+    margin-left: 105px;;
+}
+
+/*second-page*/
+
+.page2{
+    margin-top: 40px;
+}
+
+.page-photo{
+    width: 480px;
+    height: 800px;
+}
+
+.photo-second-page{
+    width: auto;
+    height: 800px;
+}
+
+.page-text{
+    width: 960px;
+    height: 800px;
+
+}
+
+.page-text-content{
+    margin-left: 106px;
+}
+
+.page-main{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color:#22356F;
+    margin-top: 103px;
+}
+
+.page-description{
+    width: 676px;
+    
+    font-size: 36px;
+    font-weight: bold;
+    color:rgba(34, 53, 111, 1);
+    line-height: 52.73px;
+    text-align: left;
+
+    margin-top: 225px;
+}
+
+.page-description-color{
+    color:rgba(108, 211, 225, 1);
+}
+
+.get-help{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color:#FAB63E;
+    letter-spacing: 10%;
+    line-height: 23.44px;
+
+    margin-top: 152px;
+}
+
+/*third-page*/
+
+.page3{
+    margin-top: 0;
+}
+
+.page3-text{
+    width: 960px;
+    height: 800px;
+    background-color: #22356F;
+}
+
+.page3-content{
+    display: block;
+    margin-left: 180px;
+    padding: 0;
+}
+
+.page3-main{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff;
+    letter-spacing: 6%;
+
+    margin-top: 103px;
+}
+
+.page3-big{
+    font-size: 64px;
+    font-weight: bold;
+    color:#fff;
+
+    margin-top: 220px;
+
+}
+
+.page3-description{
+    width: 560px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.5%;
+    color:#fff;
+
+    margin-top:76px;
+}
+
+.page3-help{
+    font-size: 16px;
+    font-weight: bold;
+    color:#62D0DF;
+    letter-spacing: 10%;
+
+    margin-top: 70px;
+}
+
+.third-page-photo{
+    width:auto;
+    height: 800px;
 }
