@@ -94,6 +94,9 @@
     margin-right: 300px;
 }
 
+/*intro content*/
+
+
 .intro-content{
     width: 100%;
     display: flex;
@@ -129,27 +132,49 @@
 
 }
 
+.btn-link{
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+   
+   
+    margin-right: 38px;
+}
+
 .btn1{
+    width: 150px;
+    height: 50px;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
     background-color: #F9B640;
-    padding: 10px 30px;
+   
     border: none;
     margin-top: 60px;
 }
 
 .btn2{
+    width: 150px;
+    height: 50px;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
     color: #F9B640;
     border: none;
     margin-top: 60px;
-    margin-left: 38px;
-    padding: 10px 30px;
+    
+   
     background-color: #fff;
+}
+
+.btn1:hover{
+    background-color: #fbc871;
+}
+
+.btn2:hover{
+    background-color: #fbc871;
+    color:#fff;
 }
 
 .intro-photo{
@@ -349,6 +374,7 @@
     background-color: #fff;
 
    margin-bottom: 23px;
+   margin-left: -20px;
 }
 
 .help-blocks{
